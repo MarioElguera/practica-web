@@ -6,7 +6,7 @@
 
 body {
     font-family: cursive;
-    background: radial-gradient(white, darkcyan)
+    background: radial-gradient(white, darkcyan);
 }
 
 header {
@@ -41,10 +41,11 @@ header {
     display: flex;
     font-size: 20px;
 
+
     .izq {
         width: 20%;
         text-align: left;
-        /* align-content: center; */
+        align-content: center;
         border-right: grey 5px solid;
         margin: 10px 0px;
         text-shadow: 2px 2px 5px rgb(16, 255, 16);
@@ -125,7 +126,6 @@ button {
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    margin: 0 auto;
 
     .product {
         background: radial-gradient(black, purple);
@@ -151,30 +151,31 @@ button {
 
 .noticia2 {
     padding-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin: 0 auto;
-    flex-direction: row;
+    display: grid;
+    width: 20vw;
 
     .product {
         background: radial-gradient(black, purple);
         color: chartreuse;
         border: 3px solid white;
         border-radius: 30px;
-        padding: 10px;
+        padding: 10px 0px;
         margin: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        & img {
-            align-self: center;
-            border-radius: 10px;
-            height: 150px;
-            width: 150px;
-            padding-bottom: 10px;
-        }
     }
+}
+
+.noticia3 {
+    padding: 50px 0px;
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+
+    text-shadow: 2px 2px 5px rgb(16, 255, 16);
+    color: black;
 }
 
 footer {
@@ -183,4 +184,5 @@ footer {
     color: rgb(243, 0, 243);
     font-size: large;
     text-align: right;
+    bottom: 0;
 }
