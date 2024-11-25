@@ -113,9 +113,14 @@ header {
 
 button {
     background-color: rgb(71, 71, 227);
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     padding: 5px 20px;
+}
+
+.back {
+    background-color: skyblue;
+    color: black;
 }
 
 .main-content-noticias {
