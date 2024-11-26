@@ -16,14 +16,14 @@ header {
     justify-content: space-between;
 }
 
-.header_logo {
+.header-logo {
     #icono_header {
         width: 50px;
         height: 50px;
     }
 }
 
-.header_nav {
+.header-nav {
     font-size: large;
     align-self: center;
 
